@@ -1,0 +1,12 @@
+--flash NAND
+--mtdparts "2176k(Bootloader),1280k(config),1280k(factory),-(firmware)"
+--model "ZTE_E8820S"
+--kernel-offset 0x4a0000
+--reset-pin 18
+--sysled-pin 16
+--cpufreq 880
+--ramfreq 1200
+--ddrparam DDR3-512MiB
+--oldparam false
+--baudrate 115200
+--yes
