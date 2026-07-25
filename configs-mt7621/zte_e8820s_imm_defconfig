@@ -1,6 +1,6 @@
 --flash NAND
 --mtdparts "2176k(Bootloader),1280k(config),1280k(factory),-(firmware)"
---model "ZTE_E8820S"
+--model "ZTE_E8820S_immortalwrt"
 --kernel-offset 0x4a0000
 --reset-pin 18
 --sysled-pin 16
